@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import CalendarBasic from "./components/CalendarBasic";
+import CalendarBasic from "./components/pages/CalendarBasic";
 
 export default {
   name: "App",
