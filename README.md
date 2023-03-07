@@ -1,24 +1,28 @@
-# frontend
+# カレンダーアプリ
 
-## Project setup
-```
-npm install
-```
+## 学習目的
+- Rails・Vue.jsを使用したSPA構成の理解を深めるためです。
+- Vue.jsの理解を深めるためです。
+  - 現職での既存コードにVuexやVue.jsを使用されたコードがあるため、理解を深めることで、既存コードの改修や機能追加にも対応できるようになるためです。また、vuetifyを学ぶことで、効率的にコードを書けるようになるためです。
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### カレンダーアプリの機能
 
-### Lints and fixes files
-```
-npm run lint
-```
+予定の新規登録<br>
+予定を登録したい日付をクリックするとモーダルが表示されるため、題名や予定の詳細、時間を入力すると保存できます。
+題名を入力しない限り、保存できないように制御もしております。
+![Image from Gyazo](https://gyazo.com/649869ff63ef8913fe76fadaee5507f5.gif)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<br>
+
+開始時間が終了時間よりも後の時間を入力した場合もバリデーションをかけることによって、予定を登録できないようにしております。
+![Image from Gyazo](https://gyazo.com/5e5074a09d2b0b74ed0e25a7de6fba95.gif)
+
+<br>
+
+
+
+### 参考資料
+以下の教材を参考にして、アプリを作成しました。<br>
+https://www.techpit.jp/courses/173
+
